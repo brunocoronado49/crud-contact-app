@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "isActive": false,
+            "number": 4322105858,
+            "avatar": "http://placehold.it/32x32",
+            "first_name": "Juanito",
+            "last_name": "Perez",
+            "gender": "male"
+        },
+        {
+            "id": 2,
+            "isActive": false,
+            "number": 4322105858,
+            "avatar": "http://placehold.it/32x32",
+            "first_name": "Fulano",
+            "last_name": "Hernandez",
+            "gender": "male"
+        },
+        {
+            "id": 3,
+            "isActive": false,
+            "number": 4322105858,
+            "avatar": "http://placehold.it/32x32",
+            "first_name": "Sultano",
+            "last_name": "Rios",
+            "gender": "male"
+        },
+        {
+            "id": 4,
+            "isActive": false,
+            "number": 4322105858,
+            "avatar": "http://placehold.it/32x32",
+            "first_name": "Tyler",
+            "last_name": "Rangel",
+            "gender": "male"
+        },
+        {
+            "id": 5,
+            "isActive": false,
+            "number": 4322105858,
+            "avatar": "http://placehold.it/32x32",
+            "first_name": "Maria",
+            "last_name": "Rangel",
+            "gender": "female"
+        }
+
+    ]
+}
