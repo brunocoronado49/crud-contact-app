@@ -1,8 +1,7 @@
-import {User} from '../models/User.model';
 
 export const userLocalhostMapper = (user) => {
     const {
-        id, isActive, number, avatar, firstName, lastMame, gender
+        id, isActive, number, avatar, firstName, lastName, gender
     } = user;
 
     return {

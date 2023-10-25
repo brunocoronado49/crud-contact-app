@@ -4,7 +4,6 @@ import {userLocalhostMapper} from '../mappers/user-localhost.mapper';
 
 export const saveUser = async(userLike) => {
     const user = new User(userLike);
-
     if (!user.firstName || !user.lastName) throw 'First and last name are required';
 
     const userToSave = userLocalhostMapper(user);
@@ -30,8 +29,6 @@ const createUser = async(user) => {
     });
 
     const newUser = await response.json();
-    console.log({newUser});
-
     return newUser;
 }
 
@@ -46,8 +43,6 @@ const updateUser = async(user) => {
     });
 
     const updateUser = await response.json();
-    console.log({updateUser});
-
     return updateUser;
 }
 
